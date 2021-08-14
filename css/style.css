@@ -247,7 +247,8 @@ body {
 }
 .stories__element-preview {
   transition: 1s;
-  filter: brightness(50%);
+  border: 3px solid #4094ef;
+  border-radius: 50%;
 }
 .stories__element-name {
   margin-top: 10px;
