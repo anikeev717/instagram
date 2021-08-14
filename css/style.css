@@ -326,12 +326,7 @@ body {
   .post__list {
     flex-flow: wrap;
   }
-  .post__link {
-    flex-basis: 33%;
-  }
   .post__image {
-    width: 100%;
-    height: 100%;
     padding: 0 12.5px 25px 12.5px;
   }
   .profile__characteristic-description {
