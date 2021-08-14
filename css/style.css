@@ -273,7 +273,7 @@ body {
 }
 
 .sub__navigation-icon {
-  filter: drop-shadow(2px 3px 5px black);
+  filter: drop-shadow(2px 3px 5px black) brightness(0%);
 }
 .sub__navigation-link {
   text-decoration: none;
