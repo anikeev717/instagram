@@ -378,7 +378,7 @@ body {
   .profile__action-link:hover {
     background-color: #fff;
     color: #4094ef;
-    transition: 0.5;
+    transition: 0.5s;
   }
   .profile__characteristic-link:hover {
     color: #4094ef;
