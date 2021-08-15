@@ -32,6 +32,11 @@ body {
 }
 .header__logo {
   transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 .header__wrapper {
   display: flex;
@@ -90,6 +95,13 @@ body {
   position: relative;
   transition: 0.5s;
 }
+.navigation__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .navigation__image-count {
   position: absolute;
   top: -25%;
@@ -115,6 +127,11 @@ body {
 }
 .profile__picture-image {
   transition: 1s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 .profile__nickname {
   font-family: "Helvetica";
@@ -249,6 +266,11 @@ body {
   transition: 1s;
   border: 3px solid #4094ef;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 .stories__element-name {
   margin-top: 10px;
@@ -272,9 +294,11 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .sub__navigation-icon {
   filter: drop-shadow(2px 3px 5px black) brightness(0%);
+  object-fit: cover;
+  object-position: center;
+  display: inline-block;
 }
 .sub__navigation-link {
   text-decoration: none;
@@ -307,13 +331,18 @@ body {
 .post__image {
   padding-bottom: 25px;
   transition: 1s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 @media screen and (min-width: 576px) {
   .container {
     --container-width: var(--mq-size-sm);
   }
   .stories__list {
-     flex-direction: row;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 768px) {
