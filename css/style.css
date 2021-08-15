@@ -250,9 +250,9 @@ body {
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   list-style: none;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   z-index: 1;
 }
@@ -341,9 +341,6 @@ body {
   .container {
     --container-width: var(--mq-size-sm);
   }
-  .stories__list {
-    flex-direction: row;
-  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -371,9 +368,6 @@ body {
   }
   .profile {
     flex-direction: row;
-  }
-  .stories__list {
-    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
